@@ -1,0 +1,20 @@
+body {
+    background-color: grey;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    color: red;
+    font-size: 25px;
+}
+
+.flexMe {
+    /* text-align: center; */
+    border: 3px solid;
+    /* these two tags has to go together */
+    display: flex;
+    justify-content: space-evenly;
+}
